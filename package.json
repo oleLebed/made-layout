@@ -1,0 +1,31 @@
+{
+  "name": "made-web-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleLebed/oleLebed.github.io.git"
+  },
+  "author": "oleLebed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleLebed/oleLebed.github.io/issues"
+  },
+  "homepage": "https://github.com/oleLebed/oleLebed.github.io#readme",
+  "devDependencies": {
+    "css-loader": "^3.1.0",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {}
+}
