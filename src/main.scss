@@ -83,6 +83,7 @@ body {
     }
 
     &__form-submit {
+        cursor: pointer;
         background-color: #fff;
         border: solid 1px #fff;
         border-radius: 6px;
@@ -133,4 +134,64 @@ body {
         font-size: .75rem;
         color: #ffcece;
     }
+}
+
+.section-2 {
+
+        padding: 75px 0;
+        text-align: center;
+
+    &__title {
+        font-family: Ubuntu, sans-serif;
+        font-size: 2.8rem;
+        color: #ee5454;
+        margin-bottom: 50px;
+    }
+
+
+    &__sub-title {
+        font-family: Ubuntu, sans-serif;
+        font-size: 2.8rem;
+    }
+
+    &__info-item {
+        display: inline-block;
+        font-family: Arial;
+        font-size: 20px;
+        margin: 50px 20px 20px 20px;
+    }
+
+    &__info-comment-bold {
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    &__info-comment {
+
+    }
+
+    &__button {
+        color: #fff;
+        cursor: pointer;
+        width: 212px;
+        height: 47px;
+        font-size: .85rem;
+        border-radius: 6px;
+        margin: 20px auto 0;
+        display: block;
+        background-color: #ee5454;
+        outline: none;
+        border: none;
+        font-family: Arial, sans-serif;
+
+    }
+
+    &__button:hover {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    &__button:active {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
 }
