@@ -19,3 +19,101 @@ body {
     margin: 0;
     user-select: none;
 }
+
+.section-1 {
+    align-items: center;
+    background-color: #ee5454;
+    display: flex;
+    flex-direction: column;
+
+    &__logo {
+        background: url(../img/logo.svg) no-repeat;
+        margin-bottom: 87px;
+        margin-top: 37px;
+        min-height: 45px;
+        min-width: 117px;
+    }
+
+    &__form {
+        color: #fff;
+        font-family: Ubuntu, sans-serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    &__form-input {
+        background: transparent;
+        border: none;
+        border-bottom: solid 2px #ff7571;
+        color: #fff;
+    }
+
+    &__form-input:focus {
+        outline: none;
+    }
+
+    &__form-input-prefix {
+        color: #eeb0ae;
+        font-family: Ubuntu, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    &__form-contacts {
+        display: inline-block;
+        margin-top: 40px;
+    }
+
+    &__form-submit {
+        background-color: #fff;
+        border: solid 1px #fff;
+        border-radius: 6px;
+        color: #ee5454;
+        height: 47px;
+        font-family: Arial, sans-serif;
+        font-size: .85rem;
+        margin-top: 52px;
+        outline: none;
+        width: 212px;
+    }
+
+    &__form-submit:hover {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+        color: #000000;
+    }
+
+    &__form-submit:active {
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    &__info {
+        padding: 40px 0 45px 0;
+        text-align: center;
+    }
+
+    &__info-item {
+        display: inline-block;
+        margin: 15px 30px;
+    }
+
+    &__info-main {
+        font-family: Arial, sans-serif;
+        font-size: 1.65rem;
+        font-weight: bold;
+        color: #ffcece;
+    }
+
+    &__info-comment-bold {
+        font-family: Arial, sans-serif;
+        font-size: .75rem;
+        font-weight: bold;
+        color: #ffcece;
+    }
+
+    &__info-comment {
+        font-family: Arial, sans-serif;
+        font-size: .75rem;
+        color: #ffcece;
+    }
+}
