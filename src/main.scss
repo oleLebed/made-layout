@@ -14,9 +14,15 @@ html {
     font-size: 20px;
 }
 
+#hide,
+#hide-small {
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    white-space: pre;
+}
+
 body {
-    background-color: lightgreen;
-    margin: 0;
     user-select: none;
 }
 
@@ -42,10 +48,22 @@ body {
     }
 
     &__form-input {
+        min-width: 220px;
+        width: 220px;
         background: transparent;
         border: none;
         border-bottom: solid 2px #ff7571;
         color: #fff;
+
+        &_mail {
+            min-width: 350px;
+            width: 350px;
+        }
+
+        &_tel {
+            min-width: 323px;
+            width: 323px;
+        }
     }
 
     &__form-input:focus {
@@ -62,7 +80,6 @@ body {
 
     &__form-contacts {
         display: inline-block;
-        margin-top: 40px;
     }
 
     &__form-submit {
