@@ -239,3 +239,40 @@ body {
         margin-left: 2rem;
     }
 }
+
+.section-5 {
+    background-image: linear-gradient(to bottom, #e8eef6, #eefdff);
+    padding: 100px 25px;
+    text-align: center;
+
+    &__title {
+        font-family: Ubuntu, sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 35px;
+    }
+
+    &__comment {
+        margin-top: 25px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        margin: 4rem 0;
+    }
+
+    &__info-item {
+        margin: 0 1rem;
+    }
+
+    &__info-item-title {
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    &__info-item-comment {
+        font-size: .75rem;
+    }
+}
