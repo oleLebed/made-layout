@@ -44,6 +44,7 @@ body {
         color: #fff;
         font-family: Ubuntu, sans-serif;
         font-size: 1.8rem;
+        margin-bottom: 2.25rem;
         text-align: center;
     }
 
@@ -80,29 +81,6 @@ body {
 
     &__form-contacts {
         display: inline-block;
-    }
-
-    &__form-submit {
-        cursor: pointer;
-        background-color: #fff;
-        border: solid 1px #fff;
-        border-radius: 6px;
-        color: #ee5454;
-        height: 47px;
-        font-family: Arial, sans-serif;
-        font-size: .85rem;
-        margin-top: 52px;
-        outline: none;
-        width: 212px;
-    }
-
-    &__form-submit:hover {
-        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-        color: #000000;
-    }
-
-    &__form-submit:active {
-        color: rgba(0, 0, 0, 0.7);
     }
 
     &__info {
@@ -162,28 +140,6 @@ body {
     &__info-comment-bold {
         font-weight: bold;
         margin-bottom: 40px;
-    }
-
-    &__button {
-        background-color: #ee5454;
-        border: none;
-        border-radius: 6px;
-        display: block;
-        color: #fff;
-        cursor: pointer;
-        font-family: Arial, sans-serif;
-        font-size: .85rem;
-        margin: 20px auto 0;
-        outline: none;
-        padding: 16px 37px 13px 38px;
-    }
-
-    &__button:hover {
-        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-    }
-
-    &__button:active {
-        color: rgba(255, 255, 255, 0.7);
     }
 }
 
@@ -324,28 +280,5 @@ body {
         font-family: Arial, sans-serif;
         line-height: 1.5rem;
         text-align: left;
-    }
-
-    &__button {
-        background-color: #36a6fd;
-        border: none;
-        border-radius: 6px;
-        display: block;
-        color: #fff;
-        cursor: pointer;
-        font-family: Arial, sans-serif;
-        font-size: .85rem;
-        margin: 20px auto 0;
-        outline: none;
-        padding: 16px 37px 13px 38px;
-    }
-
-    &__button:hover {
-        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-        background-color: #007fe2;
-    }
-
-    &__button:active {
-        color: rgba(255, 255, 255, 0.7);
     }
 }

@@ -1,5 +1,6 @@
 import './normalize.scss';
 import './main.scss';
+import './button.scss';
 
 const collection = document.getElementsByClassName('input-resize-js');
 const hide = document.getElementById('hide');
