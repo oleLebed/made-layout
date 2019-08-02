@@ -1,7 +1,7 @@
 import './normalize.scss';
 import './main.scss';
 
-const collection = document.getElementsByClassName('section-1__form-input');
+const collection = document.getElementsByClassName('input-resize-js');
 const hide = document.getElementById('hide');
 const hideSmall = document.getElementById('hide-small');
 

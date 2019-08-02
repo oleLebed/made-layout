@@ -173,10 +173,9 @@ body {
         cursor: pointer;
         font-family: Arial, sans-serif;
         font-size: .85rem;
-        height: 47px;
         margin: 20px auto 0;
         outline: none;
-        width: 212px;
+        padding: 16px 37px 13px 38px;
     }
 
     &__button:hover {
@@ -274,5 +273,79 @@ body {
 
     &__info-item-comment {
         font-size: .75rem;
+    }
+}
+
+.section-7 {
+    background-color: #3c3743;
+    color: #fff;
+    padding: 68px 0 88px 0;
+    text-align: center;
+
+    &__title {
+        font-family: Ubuntu, sans-serif;
+        font-size: 2.8rem;
+        font-weight: 500;
+        line-height: 1.18;
+        margin-bottom: 50px;
+    }
+
+    &__form {
+        margin-bottom: 55px;
+    }
+
+    &__form-input {
+        background: transparent;
+        border: none;
+        border-bottom: solid 2px #36a6fd;
+        color: #fff;
+        margin-right: 1rem;
+
+        &_url {
+            width: 300px;
+        }
+
+        &_name {
+            width: 260px;
+        }
+
+        &_mail {
+            width: 220px;
+        }
+    }
+
+    &__form-input:focus {
+        outline: none;
+    }
+
+    &__form-input-wrap {
+        color: #9a9a9a;
+        display: inline-block;
+        font-family: Arial, sans-serif;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+
+    &__button {
+        background-color: #36a6fd;
+        border: none;
+        border-radius: 6px;
+        display: block;
+        color: #fff;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        font-size: .85rem;
+        margin: 20px auto 0;
+        outline: none;
+        padding: 16px 37px 13px 38px;
+    }
+
+    &__button:hover {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+        background-color: #007fe2;
+    }
+
+    &__button:active {
+        color: rgba(255, 255, 255, 0.7);
     }
 }
