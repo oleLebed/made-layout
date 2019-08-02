@@ -246,10 +246,6 @@ body {
         margin-bottom: 50px;
     }
 
-    &__form {
-        margin-bottom: 55px;
-    }
-
     &__form-input {
         background: transparent;
         border: none;
@@ -278,7 +274,45 @@ body {
         color: #9a9a9a;
         display: inline-block;
         font-family: Arial, sans-serif;
-        line-height: 1.5rem;
+        line-height: 2rem;
         text-align: left;
     }
+
+    &__button-wrap {
+        margin-top: 55px;
+    }
+
+    &__message {
+        color: #9a9a9a;
+        font-family: Arial, sans-serif;
+        line-height: 2.5rem;
+        visibility: hidden;
+    }
+}
+
+.section-7__form.section-7__form_error {
+    .section-7__form-input {
+        border-bottom: solid 2px #ee5454;
+        color: #ee5454;
+    }
+
+    .section-7__form-input-wrap {
+        color: #ee5454;
+    }
+
+    .section-7__message {
+        color: #ee5454;
+        visibility: visible;
+    }
+
+    // применяем стили button_disabled
+    .button.button_blue {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: rgba(255, 255, 255, 0.45);
+        cursor: auto;
+
+    &:hover {
+        box-shadow: none;
+    }
+  }
 }
