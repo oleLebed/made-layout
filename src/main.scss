@@ -243,7 +243,6 @@ body {
         font-size: 2.8rem;
         font-weight: 500;
         line-height: 1.18;
-        margin-bottom: 50px;
     }
 
     &__form-input {
@@ -252,8 +251,10 @@ body {
         border-bottom: solid 2px #36a6fd;
         color: #36a6fd;
         margin-right: 1rem;
+        margin-top: 50px;
 
-        &_url {
+
+      &_url {
             width: 300px;
         }
 
@@ -287,6 +288,13 @@ body {
         font-family: Arial, sans-serif;
         line-height: 2.5rem;
         visibility: hidden;
+    }
+
+    &__success-comment {
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-size: 1.5rem;
+        line-height: 3rem;
     }
 }
 
