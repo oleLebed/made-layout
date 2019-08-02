@@ -23,6 +23,20 @@
     }
 }
 
+.button.button_white.button_disabled {
+    background: #fff;
+    cursor: auto;
+    opacity: 0.3;
+
+    &:hover {
+        box-shadow: none;
+        color: #ee5454;
+    }
+
+    &:active {
+        color: #ee5454;
+    }
+}
 
 .button.button_red {
     background-color: #ee5454;
@@ -48,5 +62,15 @@
 
     &:active {
         color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+.button.button_blue.button_disabled {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.45);
+    cursor: auto;
+
+    &:hover {
+        box-shadow: none;
     }
 }
