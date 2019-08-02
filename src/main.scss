@@ -34,10 +34,10 @@ body {
 
     &__logo {
         background: url(../img/logo.svg) no-repeat;
-        margin-bottom: 87px;
-        margin-top: 37px;
-        min-height: 45px;
-        min-width: 117px;
+        margin-bottom: 4.5rem;
+        margin-top: 2rem;
+        min-height: 2rem;
+        min-width: 6rem;
     }
 
     &__form {
@@ -367,5 +367,35 @@ body {
 
     &__tariffs-item-comment > ul > li {
         margin: 1rem 0 1rem 0;
+    }
+}
+
+.footer {
+    background-color: #ee5454;
+    color: #fff;
+    font-size: .9rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+
+    &__logo {
+        background: url(../img/logo.svg) no-repeat;
+        margin: 0 auto;
+        min-height: 2rem;
+        min-width: 6rem;
+    }
+
+    &__info {
+        margin-top: 5rem;
+    }
+
+    &__info > span,
+    &__info > a {
+        color: #efd4d4;
+        font-size: .6rem;
+        margin: 0 1rem;
+    }
+
+    &__info-link:hover {
+        color: #fff;
     }
 }
