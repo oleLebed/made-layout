@@ -81,6 +81,7 @@ body {
 
     &__form-contacts {
         display: inline-block;
+        margin-bottom: 2.5rem;
     }
 
     &__info {
@@ -111,6 +112,28 @@ body {
         font-family: Arial, sans-serif;
         font-size: .75rem;
         color: #ffcece;
+    }
+}
+
+.section-1__form.section-1__form_error {
+    .section-1__form-input {
+        border-bottom: solid 2px #fff8a3;
+    }
+
+    // применяем стили button_disabled
+    .button.button_white {
+        background: #fff;
+        cursor: auto;
+        opacity: 0.3;
+
+        &:hover {
+            box-shadow: none;
+            color: #ee5454;
+        }
+
+        &:active {
+            color: #ee5454;
+        }
     }
 }
 
