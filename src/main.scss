@@ -30,12 +30,12 @@ body {
 .section-1 {
     align-items: center;
     background-color: #ee5454;
+    color: #fff;
     display: flex;
     flex-direction: column;
     text-align: center;
 
     &__title {
-        color: #fff;
         font-size: 2rem;
         font-weight: 500;
         line-height: 1.22;
@@ -44,34 +44,33 @@ body {
 
     &__logo {
         background: url(../img/logo.svg) no-repeat center;
+        height: 2rem;
         margin-bottom: 4.5rem;
         margin-top: 2rem;
-        min-height: 2rem;
-        min-width: 6rem;
+        width: 6rem;
     }
 
     &__form {
-        color: #fff;
         font-size: 1.8rem;
         margin-bottom: 2.25rem;
     }
 
     &__form-input {
-        min-width: 220px;
-        width: 220px;
+        min-width: 11rem;
+        width: 11rem;
         background: transparent;
         border: none;
         border-bottom: solid 2px #ff7571;
         color: #fff;
 
         &_mail {
-            min-width: 350px;
-            width: 350px;
+            min-width: 18rem;
+            width: 18rem;
         }
 
         &_tel {
-            min-width: 323px;
-            width: 323px;
+            min-width: 16.6rem;
+            width: 16.6rem;
         }
     }
 
