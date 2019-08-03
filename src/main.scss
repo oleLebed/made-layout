@@ -176,12 +176,12 @@ body {
 }
 
 .section-3 {
+    align-items: center;
     background-color: #f6f5ea;
-    padding: 70px 0 85px 0;
-    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 70px 0 85px 0;
+    text-align: center;
 
     &__title {
         font-family: Ubuntu, sans-serif;
@@ -227,8 +227,8 @@ body {
     }
 
     &__carousel-content-wrap {
-        overflow: hidden;
         height: 100%;
+        overflow: hidden;
     }
 
     &__carousel-content {
@@ -236,23 +236,23 @@ body {
     }
 
     &__carousel-item {
-        width: 12rem;
-        height: 12rem;
-        background-color: #44aaee;
-        margin: .2rem;
-
+        box-sizing: border-box;
+        color: #969696;
         font-family: Arial, sans-serif;
         font-size: .6rem;
-        line-height: 1.38;
+        height: 12rem;
+        line-height: 2.5rem;
+        margin: .2rem;
+        padding: 1rem;
         text-align: center;
-        color: #969696;
+        width: 12rem;
     }
 
     &__carousel-item-logo {
-        background: url(../img/firm.png) no-repeat;
+        background: url(../img/firm.png) no-repeat center;
         background-size: contain;
-        border: 1px solid #000000;
-        width: 100%;
+        border: 1px solid #000;
+        height: 80%;
     }
 }
 
