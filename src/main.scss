@@ -43,7 +43,7 @@ body {
     }
 
     &__logo {
-        background: url(../img/logo.svg) no-repeat;
+        background: url(../img/logo.svg) no-repeat center;
         margin-bottom: 4.5rem;
         margin-top: 2rem;
         min-height: 2rem;
@@ -410,7 +410,7 @@ body {
     text-align: center;
 
     &__logo {
-        background: url(../img/logo.svg) no-repeat;
+        background: url(../img/logo.svg) no-repeat center;
         margin: 0 auto;
         min-height: 2rem;
         min-width: 6rem;
