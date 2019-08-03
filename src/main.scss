@@ -316,7 +316,7 @@ body {
 
     &__carousel-avatar {
         background: url(../img/founder.png) no-repeat;
-        border: black 1px solid;
+        background-size: contain;
         height: 3.5rem;
         width: 3.5rem;
         display: inline-block;
@@ -334,9 +334,9 @@ body {
 
     &__carousel-item-logo {
         background: url(../img/firm.png) no-repeat;
-        border: black 1px solid;
-        min-height: 1rem;
-        min-width: 1rem;
+        background-size: contain;
+        min-width: 3.5rem;
+        height: 3.5rem;
     }
 }
 
