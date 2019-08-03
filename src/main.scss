@@ -23,6 +23,7 @@ html {
 }
 
 body {
+    font-family: Ubuntu, sans-serif;
     user-select: none;
 }
 
@@ -35,7 +36,6 @@ body {
 
     &__title {
         color: #fff;
-        font-family: Ubuntu, sans-serif;
         font-size: 2rem;
         font-weight: 500;
         line-height: 1.22;
@@ -52,7 +52,6 @@ body {
 
     &__form {
         color: #fff;
-        font-family: Ubuntu, sans-serif;
         font-size: 1.8rem;
         margin-bottom: 2.25rem;
     }
@@ -82,7 +81,6 @@ body {
 
     &__form-input-prefix {
         color: #eeb0ae;
-        font-family: Ubuntu, sans-serif;
         font-size: 1rem;
         line-height: 1.5;
         text-align: left;
@@ -152,13 +150,11 @@ body {
 
     &__title {
         color: #ee5454;
-        font-family: Ubuntu, sans-serif;
         font-size: 2.8rem;
         margin-bottom: 50px;
     }
 
     &__sub-title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2.8rem;
     }
 
@@ -184,7 +180,6 @@ body {
     text-align: center;
 
     &__title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2.8rem;
     }
 
@@ -271,7 +266,6 @@ body {
 
     &__title {
         color: #ee5454;
-        font-family: Ubuntu, sans-serif;
         font-size: 2rem;
         font-weight: 500;
         margin-bottom: 4rem;
@@ -303,7 +297,6 @@ body {
     }
 
     &__list-item-title {
-        font-family: Ubuntu, sans-serif;
         font-size: 1.25rem;
         margin-bottom: .5rem;
         margin-left: 2rem;
@@ -321,7 +314,6 @@ body {
     text-align: center;
 
     &__title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2rem;
         font-weight: 500;
         margin-bottom: 35px;
@@ -359,7 +351,6 @@ body {
     text-align: center;
 
     &__title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2rem;
         font-weight: 500;
         margin-bottom: 1rem;
@@ -435,7 +426,6 @@ body {
     text-align: center;
 
     &__title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2.8rem;
         font-weight: 500;
         line-height: 1.18;
@@ -528,14 +518,12 @@ body {
     text-align: center;
 
     &__title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2.8rem;
         font-weight: 500;
         line-height: 1.18;
     }
 
     &__sub-title {
-        font-family: Ubuntu, sans-serif;
         font-size: 1.5rem;
         font-weight: 500;
     }
