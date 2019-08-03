@@ -97,28 +97,19 @@ body {
     }
 
     &__info-item {
+        color: #ffcece;
         display: inline-block;
+        font-family: Arial, sans-serif;
         margin: 15px 30px;
     }
 
     &__info-main {
-        font-family: Arial, sans-serif;
         font-size: 1.65rem;
         font-weight: bold;
-        color: #ffcece;
-    }
-
-    &__info-comment-bold {
-        font-family: Arial, sans-serif;
-        font-size: .75rem;
-        font-weight: bold;
-        color: #ffcece;
     }
 
     &__info-comment {
-        font-family: Arial, sans-serif;
         font-size: .75rem;
-        color: #ffcece;
     }
 }
 
