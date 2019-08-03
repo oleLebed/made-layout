@@ -31,9 +31,19 @@ body {
     background-color: #ee5454;
     display: flex;
     flex-direction: column;
+    text-align: center;
+
+    &__title {
+        color: #fff;
+        font-family: Ubuntu, sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.22;
+        margin-bottom: 9rem;
+    }
 
     &__logo {
-        background: url(../img/logo.svg) no-repeat;
+        background: url(../img/logo.svg) no-repeat center;
         margin-bottom: 4.5rem;
         margin-top: 2rem;
         min-height: 2rem;
@@ -45,7 +55,6 @@ body {
         font-family: Ubuntu, sans-serif;
         font-size: 1.8rem;
         margin-bottom: 2.25rem;
-        text-align: center;
     }
 
     &__form-input {
@@ -81,6 +90,7 @@ body {
 
     &__form-contacts {
         display: inline-block;
+        margin-bottom: 2.5rem;
     }
 
     &__info {
@@ -111,6 +121,28 @@ body {
         font-family: Arial, sans-serif;
         font-size: .75rem;
         color: #ffcece;
+    }
+}
+
+.section-1__form.section-1__form_error {
+    .section-1__form-input {
+        border-bottom: solid 2px #fff8a3;
+    }
+
+    // применяем стили button_disabled
+    .button.button_white {
+        background: #fff;
+        cursor: auto;
+        opacity: 0.3;
+
+        &:hover {
+            box-shadow: none;
+            color: #ee5454;
+        }
+
+        &:active {
+            color: #ee5454;
+        }
     }
 }
 
@@ -378,7 +410,7 @@ body {
     text-align: center;
 
     &__logo {
-        background: url(../img/logo.svg) no-repeat;
+        background: url(../img/logo.svg) no-repeat center;
         margin: 0 auto;
         min-height: 2rem;
         min-width: 6rem;
