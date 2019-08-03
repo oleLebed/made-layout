@@ -31,6 +31,16 @@ body {
     background-color: #ee5454;
     display: flex;
     flex-direction: column;
+    text-align: center;
+
+    &__title {
+        color: #fff;
+        font-family: Ubuntu, sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.22;
+        margin-bottom: 9rem;
+    }
 
     &__logo {
         background: url(../img/logo.svg) no-repeat;
@@ -45,7 +55,6 @@ body {
         font-family: Ubuntu, sans-serif;
         font-size: 1.8rem;
         margin-bottom: 2.25rem;
-        text-align: center;
     }
 
     &__form-input {
