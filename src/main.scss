@@ -207,8 +207,8 @@ body {
         &:after,
         &:before {
             background: url(../img/arrow_page.png) no-repeat center;
-            border: 1px solid #000000;
             content: "";
+            cursor: pointer;
             display: block;
             height: 3rem;
             position: absolute;
@@ -224,6 +224,12 @@ body {
         &:before {
             left: -3rem;
         }
+    }
+
+    &__carousel-divider {
+        border: solid 1px #b6ccdd;
+        margin: 2rem 0;
+        width: 25rem;
     }
 
     &__carousel-content-wrap {
@@ -251,7 +257,6 @@ body {
     &__carousel-item-logo {
         background: url(../img/firm.png) no-repeat center;
         background-size: contain;
-        border: 1px solid #000;
         height: 80%;
     }
 }
