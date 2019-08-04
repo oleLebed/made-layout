@@ -295,17 +295,13 @@ body {
 
 .section-5 {
     background-image: linear-gradient(to bottom, #e8eef6, #eefdff);
-    padding: 100px 25px;
+    padding: 5rem 0;
     text-align: center;
 
     &__title {
         font-size: 2rem;
         font-weight: 500;
-        margin-bottom: 35px;
-    }
-
-    &__comment {
-        margin-top: 25px;
+        margin-bottom: 1.75rem;
     }
 
     &__info {
@@ -326,6 +322,10 @@ body {
 
     &__info-item-comment {
         font-size: .75rem;
+    }
+
+    &__info-item-comment > a:hover {
+            color: #ee5454;
     }
 }
 
