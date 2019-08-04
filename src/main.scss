@@ -23,19 +23,24 @@ html {
 }
 
 body {
+    font-family: Ubuntu, sans-serif;
     user-select: none;
+}
+
+body > section {
+    padding: 4rem 0;
 }
 
 .section-1 {
     align-items: center;
     background-color: #ee5454;
+    color: #fff;
     display: flex;
     flex-direction: column;
+    padding: 2rem 0;
     text-align: center;
 
     &__title {
-        color: #fff;
-        font-family: Ubuntu, sans-serif;
         font-size: 2rem;
         font-weight: 500;
         line-height: 1.22;
@@ -44,35 +49,32 @@ body {
 
     &__logo {
         background: url(../img/logo.svg) no-repeat center;
+        height: 2rem;
         margin-bottom: 4.5rem;
-        margin-top: 2rem;
-        min-height: 2rem;
-        min-width: 6rem;
+        width: 6rem;
     }
 
     &__form {
-        color: #fff;
-        font-family: Ubuntu, sans-serif;
         font-size: 1.8rem;
         margin-bottom: 2.25rem;
     }
 
     &__form-input {
-        min-width: 220px;
-        width: 220px;
+        min-width: 11rem;
+        width: 11rem;
         background: transparent;
         border: none;
         border-bottom: solid 2px #ff7571;
         color: #fff;
 
         &_mail {
-            min-width: 350px;
-            width: 350px;
+            min-width: 18rem;
+            width: 18rem;
         }
 
         &_tel {
-            min-width: 323px;
-            width: 323px;
+            min-width: 16.6rem;
+            width: 16.6rem;
         }
     }
 
@@ -82,7 +84,6 @@ body {
 
     &__form-input-prefix {
         color: #eeb0ae;
-        font-family: Ubuntu, sans-serif;
         font-size: 1rem;
         line-height: 1.5;
         text-align: left;
@@ -94,33 +95,24 @@ body {
     }
 
     &__info {
-        padding: 40px 0 45px 0;
+        padding-top: 2rem;
         text-align: center;
     }
 
     &__info-item {
+        color: #ffcece;
         display: inline-block;
-        margin: 15px 30px;
+        font-family: Arial, sans-serif;
+        margin: .75rem 1.5rem;
     }
 
     &__info-main {
-        font-family: Arial, sans-serif;
         font-size: 1.65rem;
         font-weight: bold;
-        color: #ffcece;
-    }
-
-    &__info-comment-bold {
-        font-family: Arial, sans-serif;
-        font-size: .75rem;
-        font-weight: bold;
-        color: #ffcece;
     }
 
     &__info-comment {
-        font-family: Arial, sans-serif;
         font-size: .75rem;
-        color: #ffcece;
     }
 }
 
@@ -147,31 +139,28 @@ body {
 }
 
 .section-2 {
-    padding: 75px 0;
     text-align: center;
 
     &__title {
-        color: #ee5454;
-        font-family: Ubuntu, sans-serif;
         font-size: 2.8rem;
-        margin-bottom: 50px;
+
+        &_red {
+            color: #ee5454;
+        }
     }
 
     &__sub-title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2.8rem;
+    }
+
+    &__info {
+        margin-bottom: 2rem;
     }
 
     &__info-item {
         display: inline-block;
         font-family: Arial, sans-serif;
-        font-size: 20px;
-        margin: 50px 20px 20px 20px;
-    }
-
-    &__info-comment-bold {
-        font-weight: bold;
-        margin-bottom: 40px;
+        margin: 2.5rem 1rem 1rem 1rem;
     }
 }
 
@@ -180,23 +169,16 @@ body {
     background-color: #f6f5ea;
     display: flex;
     flex-direction: column;
-    padding: 70px 0 85px 0;
     text-align: center;
 
     &__title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2.8rem;
-    }
-
-    &__comment-bold {
-        font-family: Arial, sans-serif;
-        font-weight: bold;
-        margin: 18px 0 20px 0;
+        margin-bottom: 1rem;
     }
 
     &__comment {
         font-family: Arial, sans-serif;
-        margin-bottom: 50px;
+        margin-bottom: 2.5rem;
     }
 
     &__carousel {
@@ -255,9 +237,11 @@ body {
     }
 
     &__carousel-item-logo {
-        background: url(../img/firm.png) no-repeat center;
         background-size: contain;
+        display: block;
         height: 80%;
+        object-fit: contain;
+        width: 100%;
     }
 }
 
@@ -265,11 +249,9 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 5rem 3rem;
 
     &__title {
         color: #ee5454;
-        font-family: Ubuntu, sans-serif;
         font-size: 2rem;
         font-weight: 500;
         margin-bottom: 4rem;
@@ -301,7 +283,6 @@ body {
     }
 
     &__list-item-title {
-        font-family: Ubuntu, sans-serif;
         font-size: 1.25rem;
         margin-bottom: .5rem;
         margin-left: 2rem;
@@ -315,18 +296,12 @@ body {
 
 .section-5 {
     background-image: linear-gradient(to bottom, #e8eef6, #eefdff);
-    padding: 100px 25px;
     text-align: center;
 
     &__title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2rem;
         font-weight: 500;
-        margin-bottom: 35px;
-    }
-
-    &__comment {
-        margin-top: 25px;
+        margin-bottom: 1.75rem;
     }
 
     &__info {
@@ -348,16 +323,18 @@ body {
     &__info-item-comment {
         font-size: .75rem;
     }
+
+    &__info-item-comment > a:hover {
+            color: #ee5454;
+    }
 }
 
 .section-6 {
     background-image: linear-gradient(131deg, #5b595b, #5b5762);
     color: #ffffff;
-    padding: 4rem 0;
     text-align: center;
 
     &__title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2rem;
         font-weight: 500;
         margin-bottom: 1rem;
@@ -370,7 +347,7 @@ body {
     }
 
     &__carousel {
-        margin-top: 35px;
+        margin-top: 1.75rem;
     }
 
     &__carousel-item {
@@ -381,7 +358,7 @@ body {
     &__carousel-item-bubble {
         background-image: linear-gradient(to bottom, #6cb5ff, #3999f8);
         border-radius: 5rem;
-        box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 .3rem .7rem 0 rgba(0, 0, 0, 0.19);
         box-sizing: border-box;
         display: flex;
         text-align: left;
@@ -419,7 +396,7 @@ body {
     }
 
     &__carousel-item-logo {
-        background: url(../img/firm.png) no-repeat;
+        background: url(../img/firm_logo_1.png) no-repeat;
         background-size: contain;
         min-width: 3.5rem;
         height: 3.5rem;
@@ -429,11 +406,9 @@ body {
 .section-7 {
     background-color: #3c3743;
     color: #fff;
-    padding: 68px 0 88px 0;
     text-align: center;
 
     &__title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2.8rem;
         font-weight: 500;
         line-height: 1.18;
@@ -445,19 +420,18 @@ body {
         border-bottom: solid 2px #36a6fd;
         color: #36a6fd;
         margin-right: 1rem;
-        margin-top: 50px;
+        margin-top: 2.5rem;
 
-
-      &_url {
-            width: 300px;
+        &_url {
+            width: 15rem;
         }
 
         &_name {
-            width: 260px;
+            width: 13rem;
         }
 
         &_mail {
-            width: 220px;
+            width: 11rem;
         }
     }
 
@@ -465,7 +439,7 @@ body {
         outline: none;
     }
 
-    &__form-input-wrap {
+    &__form-input-label {
         color: #9a9a9a;
         display: inline-block;
         font-family: Arial, sans-serif;
@@ -522,18 +496,15 @@ body {
 .section-8 {
     background-color: #ee5454;
     color: #fff;
-    padding: 4rem 0 5rem 0;
     text-align: center;
 
     &__title {
-        font-family: Ubuntu, sans-serif;
         font-size: 2.8rem;
         font-weight: 500;
         line-height: 1.18;
     }
 
     &__sub-title {
-        font-family: Ubuntu, sans-serif;
         font-size: 1.5rem;
         font-weight: 500;
     }
