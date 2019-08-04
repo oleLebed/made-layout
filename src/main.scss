@@ -27,6 +27,10 @@ body {
     user-select: none;
 }
 
+body > section {
+    padding: 4rem 0;
+}
+
 .section-1 {
     align-items: center;
     background-color: #ee5454;
@@ -135,7 +139,6 @@ body {
 }
 
 .section-2 {
-    padding: 4rem 0;
     text-align: center;
 
     &__title {
@@ -166,7 +169,6 @@ body {
     background-color: #f6f5ea;
     display: flex;
     flex-direction: column;
-    padding: 3.5rem 0 4rem 0;
     text-align: center;
 
     &__title {
@@ -247,7 +249,6 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 5rem 0;
 
     &__title {
         color: #ee5454;
@@ -295,7 +296,6 @@ body {
 
 .section-5 {
     background-image: linear-gradient(to bottom, #e8eef6, #eefdff);
-    padding: 5rem 0;
     text-align: center;
 
     &__title {
@@ -332,7 +332,6 @@ body {
 .section-6 {
     background-image: linear-gradient(131deg, #5b595b, #5b5762);
     color: #ffffff;
-    padding: 4rem 0;
     text-align: center;
 
     &__title {
@@ -407,7 +406,6 @@ body {
 .section-7 {
     background-color: #3c3743;
     color: #fff;
-    padding: 3.5rem 0 4.5rem 0;
     text-align: center;
 
     &__title {
@@ -498,7 +496,6 @@ body {
 .section-8 {
     background-color: #ee5454;
     color: #fff;
-    padding: 4rem 0 5rem 0;
     text-align: center;
 
     &__title {
