@@ -1,0 +1,78 @@
+.application {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 14px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2.75rem 5.5rem 4.5rem 5.5rem;
+    position: relative;
+
+    &__close-icon {
+        background: url(../img/close-icon.svg) no-repeat center;
+        height: 1.75rem;
+        margin: 1rem 1rem 0 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 1.75rem;
+
+        &:hover {
+            background-image: url(../img/close-icon_hover.svg);
+        }
+    }
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 2.5rem;
+        text-align: center;
+    }
+
+    &__input {
+        border: none;
+        border-bottom: solid 2px #36a6fd;;
+        font-size: .9rem;
+        outline: none;
+        resize: none;
+        width: 20rem;
+    }
+
+    &__input-label {
+        font-family: Arial, sans-serif;
+        font-size: .75rem;
+        color: #9a9a9a;
+        line-height: 2;
+        margin-bottom: 1.75rem;
+    }
+}
+
+.application.application_error {
+    .application__input {
+        border-bottom-color: #ee5454;;
+    }
+
+    .application__input-label {
+        color: #ee5454;
+    }
+
+    .button.button_blue {
+        opacity: 0.3;
+        cursor: auto;
+
+        &:hover {
+            background-color: #36a6fd;
+            box-shadow: none;
+        }
+
+        &:active {
+            color: #fff;
+        }
+    }
+}
+
+.application.application_success {
+    .button {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
