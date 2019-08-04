@@ -1,12 +1,25 @@
 .application {
-    border: 1px solid black;
-
     align-items: center;
     background-color: #fff;
     border-radius: 14px;
     display: inline-flex;
     flex-direction: column;
     padding: 2.75rem 5.5rem 4.5rem 5.5rem;
+    position: relative;
+
+    &__close-icon {
+        background: url(../img/close-icon.svg) no-repeat center;
+        height: 1.75rem;
+        margin: 1rem 1rem 0 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 1.75rem;
+
+        &:hover {
+            background-image: url(../img/close-icon_hover.svg);
+        }
+    }
 
     &__title {
         font-size: 2rem;
