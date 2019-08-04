@@ -348,7 +348,7 @@ body {
     }
 
     &__carousel {
-        margin-top: 35px;
+        margin-top: 1.75rem;
     }
 
     &__carousel-item {
@@ -359,7 +359,7 @@ body {
     &__carousel-item-bubble {
         background-image: linear-gradient(to bottom, #6cb5ff, #3999f8);
         border-radius: 5rem;
-        box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 .3rem .7rem 0 rgba(0, 0, 0, 0.19);
         box-sizing: border-box;
         display: flex;
         text-align: left;
@@ -407,7 +407,7 @@ body {
 .section-7 {
     background-color: #3c3743;
     color: #fff;
-    padding: 68px 0 88px 0;
+    padding: 3.5rem 0 4.5rem 0;
     text-align: center;
 
     &__title {
@@ -422,19 +422,18 @@ body {
         border-bottom: solid 2px #36a6fd;
         color: #36a6fd;
         margin-right: 1rem;
-        margin-top: 50px;
+        margin-top: 2.5rem;
 
-
-      &_url {
-            width: 300px;
+        &_url {
+            width: 15rem;
         }
 
         &_name {
-            width: 260px;
+            width: 13rem;
         }
 
         &_mail {
-            width: 220px;
+            width: 11rem;
         }
     }
 
@@ -442,7 +441,7 @@ body {
         outline: none;
     }
 
-    &__form-input-wrap {
+    &__form-input-label {
         color: #9a9a9a;
         display: inline-block;
         font-family: Arial, sans-serif;
