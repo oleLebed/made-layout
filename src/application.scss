@@ -1,0 +1,34 @@
+.application {
+    border: 1px solid black;
+
+    align-items: center;
+    background-color: #fff;
+    border-radius: 14px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2.75rem 5.5rem 4.5rem 5.5rem;
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 2.5rem;
+        text-align: center;
+    }
+
+    &__input {
+        border: none;
+        border-bottom: solid 2px #36a6fd;;
+        font-size: .9rem;
+        outline: none;
+        resize: none;
+        width: 20rem;
+    }
+
+    &__input-label {
+        font-family: Arial, sans-serif;
+        font-size: .75rem;
+        color: #9a9a9a;
+        line-height: 2;
+        margin-bottom: 1.75rem;
+    }
+}
