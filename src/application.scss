@@ -32,3 +32,27 @@
         margin-bottom: 1.75rem;
     }
 }
+
+.application.application_error {
+    .application__input {
+        border-bottom-color: #ee5454;;
+    }
+
+    .application__input-label {
+        color: #ee5454;
+    }
+
+    .button.button_blue {
+        opacity: 0.3;
+        cursor: auto;
+
+        &:hover {
+            background-color: #36a6fd;
+            box-shadow: none;
+        }
+
+        &:active {
+            color: #fff;
+        }
+    }
+}
