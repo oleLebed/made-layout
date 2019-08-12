@@ -271,6 +271,17 @@ body > section {
         height: 80%;
         object-fit: contain;
         width: 100%;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__carousel-item-text {
+        &:hover {
+            color: #ee5454;
+            cursor: pointer;
+        }
     }
 }
 
