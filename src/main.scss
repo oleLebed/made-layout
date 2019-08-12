@@ -60,6 +60,36 @@ body > section {
     }
 }
 
+@media screen and (min-width: 769px) {
+    .section-2__title {
+        font-size: 2.8rem;
+    }
+
+    .section-3__title {
+        font-size: 2.8rem;
+    }
+
+    .section-4__title {
+        font-size: 2.8em;
+    }
+
+    .section-5__title {
+        font-size: 2.8rem;
+    }
+
+    .section-6__title {
+        font-size: 2.8rem;
+    }
+
+    .section-7__title {
+        font-size: 2.8rem;
+    }
+
+    .section-8__title {
+        font-size: 2.8rem;
+    }
+}
+
 .section-1 {
     align-items: center;
     background-color: #ee5454;
@@ -171,15 +201,9 @@ body > section {
     text-align: center;
 
     &__title {
-        font-size: 2.8rem;
-
         &_red {
             color: #ee5454;
         }
-    }
-
-    &__sub-title {
-        font-size: 2.8rem;
     }
 
     &__info {
@@ -201,7 +225,6 @@ body > section {
     text-align: center;
 
     &__title {
-        font-size: 2.8rem;
         margin-bottom: 1rem;
     }
 
@@ -292,7 +315,6 @@ body > section {
 
     &__title {
         color: #ee5454;
-        font-size: 2.8em;
         font-weight: 500;
         margin-bottom: 4rem;
         text-align: center;
@@ -339,7 +361,6 @@ body > section {
     text-align: center;
 
     &__title {
-        font-size: 2.8rem;
         font-weight: 500;
         margin-bottom: 1.75rem;
     }
@@ -375,7 +396,6 @@ body > section {
     text-align: center;
 
     &__title {
-        font-size: 2.8rem;
         font-weight: 500;
         margin-bottom: 1rem;
     }
@@ -449,7 +469,6 @@ body > section {
     text-align: center;
 
     &__title {
-        font-size: 2.8rem;
         font-weight: 500;
         line-height: 1.18;
     }
@@ -539,7 +558,6 @@ body > section {
     text-align: center;
 
     &__title {
-        font-size: 2.8rem;
         font-weight: 500;
         line-height: 1.18;
     }
