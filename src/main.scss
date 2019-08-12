@@ -173,11 +173,23 @@ body > section {
     &__info-comment {
         font-size: .75rem;
     }
+
+    &__message {
+        color: #fff8a3;
+        font-family: Arial, sans-serif;
+        font-size: .75rem;
+        line-height: 2.5rem;
+        visibility: hidden;
+    }
 }
 
 .section-1__form.section-1__form_error {
     .section-1__form-input {
         border-bottom: solid 2px #fff8a3;
+    }
+
+    .section-1__message {
+        visibility: visible;
     }
 
     // применяем стили button_disabled
@@ -512,7 +524,7 @@ body > section {
     }
 
     &__message {
-        color: #9a9a9a;
+        color: #ee5454;
         font-family: Arial, sans-serif;
         line-height: 2.5rem;
         visibility: hidden;
@@ -537,7 +549,6 @@ body > section {
     }
 
     .section-7__message {
-        color: #ee5454;
         visibility: visible;
     }
 
