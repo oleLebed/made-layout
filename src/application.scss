@@ -1,3 +1,22 @@
+@media (hover: hover) {
+    .application {
+        &__close-icon {
+            &:hover {
+                background-image: url(../img/close-icon_hover.svg);
+            }
+        }
+    }
+
+    .application.application_error {
+        .button.button_blue {
+            &:hover {
+                background-color: #36a6fd;
+                box-shadow: none;
+            }
+        }
+    }
+}
+
 .application {
     align-items: center;
     background-color: #fff;
@@ -15,10 +34,6 @@
         right: 0;
         top: 0;
         width: 1.75rem;
-
-        &:hover {
-            background-image: url(../img/close-icon_hover.svg);
-        }
     }
 
     &__title {
@@ -58,11 +73,6 @@
     .button.button_blue {
         opacity: 0.3;
         cursor: auto;
-
-        &:hover {
-            background-color: #36a6fd;
-            box-shadow: none;
-        }
 
         &:active {
             color: #fff;
