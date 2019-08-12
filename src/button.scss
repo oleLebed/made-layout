@@ -1,3 +1,32 @@
+@media (hover: hover) {
+    .button.button_white:hover {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+        color: #000000;
+    }
+
+
+    .button.button_white.button_disabled:hover {
+        box-shadow: none;
+        color: #ee5454;
+    }
+
+
+    .button.button_red:hover {
+        background-color: #ed3535;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .button.button_blue:hover {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+        background-color: #007fe2;
+    }
+
+    .button.button_blue.button_disabled:hover {
+        box-shadow: none;
+    }
+
+}
+
 .button {
     cursor: pointer;
     border: none;
@@ -13,11 +42,6 @@
     border: solid 1px #fff;
     color: #ee5454;
 
-    &:hover {
-        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-        color: #000000;
-    }
-
     &:active {
         color: rgba(0, 0, 0, 0.7);
     }
@@ -28,11 +52,6 @@
     cursor: auto;
     opacity: 0.3;
 
-    &:hover {
-        box-shadow: none;
-        color: #ee5454;
-    }
-
     &:active {
         color: #ee5454;
     }
@@ -41,11 +60,6 @@
 .button.button_red {
     background-color: #ee5454;
     color: #fff;
-
-    &:hover {
-        background-color: #ed3535;
-        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-    }
 
     &:active {
         background-color: #ed3535;
@@ -57,11 +71,6 @@
     background-color: #36a6fd;
     color: #fff;
 
-    &:hover {
-        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-        background-color: #007fe2;
-    }
-
     &:active {
         color: rgba(255, 255, 255, 0.7);
     }
@@ -71,8 +80,4 @@
     background-color: rgba(255, 255, 255, 0.2);
     color: rgba(255, 255, 255, 0.45);
     cursor: auto;
-
-    &:hover {
-        box-shadow: none;
-    }
 }
