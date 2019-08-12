@@ -30,6 +30,36 @@ body > section {
     padding: 4rem 0;
 }
 
+@media screen and (max-width: 768px) {
+    .section-2__title {
+        font-size: 2rem;
+    }
+
+    .section-3__title {
+        font-size: 2rem;
+    }
+
+    .section-4__title {
+        font-size: 2rem;
+    }
+
+    .section-5__title {
+        font-size: 2rem;
+    }
+
+    .section-6__title {
+        font-size: 2rem;
+    }
+
+    .section-7__title {
+        font-size: 1.5rem;
+    }
+
+    .section-8__title {
+        font-size: 2rem;
+    }
+}
+
 .section-1 {
     align-items: center;
     background-color: #ee5454;
@@ -251,7 +281,7 @@ body > section {
 
     &__title {
         color: #ee5454;
-        font-size: 2rem;
+        font-size: 2.8em;
         font-weight: 500;
         margin-bottom: 4rem;
         text-align: center;
@@ -298,7 +328,7 @@ body > section {
     text-align: center;
 
     &__title {
-        font-size: 2rem;
+        font-size: 2.8rem;
         font-weight: 500;
         margin-bottom: 1.75rem;
     }
@@ -334,7 +364,7 @@ body > section {
     text-align: center;
 
     &__title {
-        font-size: 2rem;
+        font-size: 2.8rem;
         font-weight: 500;
         margin-bottom: 1rem;
     }
