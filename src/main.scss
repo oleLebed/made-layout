@@ -90,6 +90,46 @@ body > section {
     }
 }
 
+@media (hover: hover) {
+    .section-1__form.section-1__form_error {
+        .button.button_white {
+            &:hover {
+                box-shadow: none;
+                color: #ee5454;
+            }
+        }
+    }
+
+    .section-3 {
+        &__carousel-arrow:hover {
+            background: url(../img/arrow-red.svg) no-repeat center;
+        }
+
+        &__carousel-item-logo:hover {
+            cursor: pointer;
+        }
+
+        &__carousel-item-text:hover {
+            color: #ee5454;
+            cursor: pointer;
+        }
+    }
+
+    .section-5 {
+        &__info-item-comment > a:hover {
+            color: #ee5454;
+        }
+    }
+
+    .footer {
+        &__info-link:hover {
+            color: #fff;
+        }
+    }
+
+
+}
+
 .section-1 {
     align-items: center;
     background-color: #ee5454;
@@ -198,11 +238,6 @@ body > section {
         cursor: auto;
         opacity: 0.3;
 
-        &:hover {
-            box-shadow: none;
-            color: #ee5454;
-        }
-
         &:active {
             color: #ee5454;
         }
@@ -259,10 +294,6 @@ body > section {
         width: 1.5rem;
         top: calc(50% - 1.5rem);
 
-        &:hover {
-            background: url(../img/arrow-red.svg) no-repeat center;
-        }
-
         &_right {
             right: -3rem;
         }
@@ -307,17 +338,6 @@ body > section {
         height: 80%;
         object-fit: contain;
         width: 100%;
-
-        &:hover {
-            cursor: pointer;
-        }
-    }
-
-    &__carousel-item-text {
-        &:hover {
-            color: #ee5454;
-            cursor: pointer;
-        }
     }
 }
 
@@ -396,10 +416,6 @@ body > section {
 
     &__info-item-comment {
         font-size: .75rem;
-    }
-
-    &__info-item-comment > a:hover {
-            color: #ee5454;
     }
 }
 
@@ -558,10 +574,10 @@ body > section {
         color: rgba(255, 255, 255, 0.45);
         cursor: auto;
 
-    &:hover {
-        box-shadow: none;
+        &:hover {
+            box-shadow: none;
+        }
     }
-  }
 }
 
 .section-8 {
@@ -628,9 +644,5 @@ body > section {
         color: #efd4d4;
         font-size: .6rem;
         margin: 0 1rem;
-    }
-
-    &__info-link:hover {
-        color: #fff;
     }
 }
