@@ -237,26 +237,27 @@ body > section {
         height: 25rem;
         position: relative;
         width: 25rem;
+    }
 
-        &:after,
-        &:before {
-            background: url(../img/arrow_page.png) no-repeat center;
-            content: "";
-            cursor: pointer;
-            display: block;
-            height: 3rem;
-            position: absolute;
-            width: 1.5rem;
-            top: calc(50% - 1.5rem);
+    &__carousel-arrow {
+        background: url(../img/arrow-gray.svg) no-repeat center;
+        cursor: pointer;
+        height: 3rem;
+        position: absolute;
+        width: 1.5rem;
+        top: calc(50% - 1.5rem);
+
+        &:hover {
+            background: url(../img/arrow-red.svg) no-repeat center;
         }
 
-        &:after {
+        &_right {
             right: -3rem;
-            transform: rotate(180deg);
         }
 
-        &:before {
+        &_left {
             left: -3rem;
+            transform: rotate(180deg);
         }
     }
 
